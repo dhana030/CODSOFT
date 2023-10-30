@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(22, 210, 210);
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding:20px 20px;
+    align-items:center ;
+    justify-content:space-between;
+    
+
+}
+.logo{
+    width:100px;
+    cursor:pointer;
+    color: aliceblue;
+    margin-left: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    transform:skew(-10deg,0);
+    font-size:45px;
+}
+
+ul{
+    list-style:none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+ul li{
+    display:inline-block;
+    padding:10px 16px;}
+    
+
+ul li a{
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(217, 228, 228);
+    margin-top:-3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color:white;
+}
+
+.intro{
+    margin-top: 5%;
+    margin-left: 7%;
+    
+
+}
+pre{
+    font-size:45px;
+    line-height:1.3;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro h1{
+    font-size: 45px;
+    color: darkmagenta;
+}
+.intro h2{
+    font-size: 35px;
+    color:deeppink;
+}
+.intro pre{
+    color:darkslateblue;
+    font-family:'Times New Roman', Times, serif;
+}
+.profile {
+    float: right;
+    margin-right:0;
+    margin-left: auto;
+    display:inline-block;
+    
+}
+.icon{
+    margin-right: 20px ;
+}
+button{
+    padding: 20px 30px;
+    margin: none;
+    border: none;
+    background-color:rgb(22, 210, 210);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+.skills{
+    margin-left: 7%;
+}
+.skills h1{
+    margin-left: 55%;
+    font-size: 45px;
+    color:indigo;
+}
+.skills ul{
+    
+    list-style-type: circle;
+}
+.skills ul li{
+   
+    margin-left: 55%;
+    display:block;
+    font-size: 30px;
+    color: rgb(236, 12, 228);
+    
+}
+.image2{
+    margin-top: 2%;
+    float: left;
+    margin-right:150px;
+    margin-left: auto;
+    display:inline-block;
+
+    
+}
+.project h1{
+    margin-left: 2%;
+    font-size:45px;
+    color:indigo;
+    
+}
+.project pre{
+    margin-left: -7%;
+    font-size:35px;
+    color:rgba(9, 122, 45, 0.504);
+    font-family:'Times New Roman', Times, serif;
+}
+.image3{
+    float: right;
+    margin-right:7%;
+    margin-left: auto;
+    display:inline-block;
+    
+}
+
+.resume h1{
+    margin-left: 7%;
+    font-size:45px;
+    color:indigo;
+}
+.resume h2{
+    margin-left: 10%;
+    font-size:35px;
+    color:rgb(240, 97, 190);
+
+}
+.resume button {
+    padding: 20px 30px;
+    margin: 0; /* Add the margin value here, or specify margin values as needed */
+    border: none;
+    background-color: rgb(22, 210, 210);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 7%;
+}
+.resumae{
+    float: right;
+    margin-right:50px;
+    margin-left: auto;
+    display:inline-block;
+    margin-bottom: 100%;
+}
+
+
+.education h1{
+    margin-left: 40%;
+    font-size:45px;
+    color:indigo;
+}
+.education pre{
+    margin-left: 40%;
+    font-size:35px;
+    color:rgb(231, 109, 16);
+}
+.image4{
+    margin-top: 50px;
+    float: left;
+    margin-left:50px;
+    margin-right: auto;
+    display:inline-block;
+
+    
+}
+.a h1{
+    margin-left: 7%;
+    font-size:45px;
+    color:indigo;
+}
+.a pre{
+    font-size:35px;
+    color:rgb(7, 39, 64);
+    font-family:'Times New Roman', Times, serif;
+
+}
+.image5{
+    float: right;
+    margin-right:-35%;
+    margin-left: auto;
+    display:inline-block;
+
+    
+}
+.contact h1{
+    margin-left: 7%;
+    font-size:45px;
+    color:indigo;
+}
+.icon1{
+    margin-left: 100px ;
+
+}
+.icon2{
+    margin-left: 80px ;
+
+}
+.icon3{
+    margin-left: 60px ;
+
+}
+.footer{
+    width: 100%;
+    background-color:grey;
+    padding: 50px;
+    text-align: center;
+
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; 
+}
+
+.scroll-to-top a {
+    text-decoration: none;
+}
