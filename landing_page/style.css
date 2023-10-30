@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding:20px 20px;
+    align-items:center ;
+    justify-content:space-between;
+    
+
+}
+.logo{
+    width:100px;
+    cursor:pointer;
+    color: white;
+    margin-left: 2px;
+    font-family:'Snap ITC';
+    transform:skew(-10deg,0);
+    font-size:40px;
+}
+ul{
+    list-style:none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+ul li{
+    display:inline-block;
+    padding:10px 16px;}
+    
+
+ul li a{
+    font-size:40px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    margin-top:-3%;
+    transition: .4s ease;
+    font-family:'chiller';
+}
+
+ul li a:hover{
+    color:white;
+}
+body {
+    background-image: url('fish.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    padding: 10px 10px;
+    margin: none;
+    border: none;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.intro-line {
+    text-align:left;
+    color:yellow;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, p {
+    font-family: Baskerville Old face;
+    font-size: 45px;
+}
+ button1{
+    padding: 15px 15px;
+    margin: none;
+    border: none;
+    background-color:yellow;
+    color: green;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+}
+  
